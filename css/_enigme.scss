@@ -1,0 +1,185 @@
+.main-enigme  {
+    .section1 {
+        background-image: url(./Images/Enigme/Pantherenigme1.png);
+        background-size: cover;
+        margin-top: -180px;
+        height: 920px;
+        width: 920px;
+        animation: fade-in 2s ease-in-out forwards;
+
+        .section1-text {
+            width: 397px;
+            margin-left: 785px;
+            padding-top: 200px;
+
+            h1 {
+                font-size: 45px;
+                font-family: 'beyno';
+                font-weight: lighter;
+                color: var(--light-bleu-color);
+                margin-top: 165px;
+                margin-bottom: 45px;
+               }
+
+               h1:hover {
+                transform: scale(1.2);
+               }
+               
+               p {
+                position: absolute;
+                width: 332px;
+                font-family: 'Cantarell';
+                font-size: 10px;
+                text-align: justify;
+                margin-top: 105px;
+                margin-left: 87px;
+               }
+    
+               p:hover {
+                transform: scale(1.2);
+               }           
+           }
+        
+        .section1-image {
+            margin-left: 785px;
+
+            .image2-enigme {
+                width: 492px;
+               }
+            
+            .image3-enigme {
+                width: 492px;
+                position: absolute;
+                padding-top: -400px;
+               } 
+           }     
+       }
+
+     @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      } 
+     
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 150px;
+        padding-right: 150px;
+
+        .left {
+            animation: fade-in 2s ease-in-out forwards;
+
+            h2 {
+                width: 503px;
+                font-family: 'WakandaForever';
+                font-size: 20px;
+                line-height: 1.6;
+                word-spacing: 15px;
+                color: var(--light-bleu-color);
+                padding-bottom: 55px;
+               }
+
+            h3 {
+                font-family: 'Cantarell';
+                font-size: 12px;
+                font-weight: lighter;
+                padding-bottom: 8px;
+               }
+             
+            p  {
+                font-family: 'Cantarell';
+                font-size: 12px;
+                width: 370px;
+
+                span {
+                    font-family: 'WakandaForever';
+                    font-size: 12px;
+                    word-spacing: 5px;
+                   }
+                
+               }  
+               
+             p:hover {
+                transform: scale(1.2);
+               }
+                  
+           }
+        
+           @keyframes fade-in {
+            0% {
+              opacity: 0;
+              transform: translateX(-100%);
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          } 
+        
+        .my-form {
+            display: block;
+            padding-top: 90px;
+            padding-bottom: 30px;
+
+            input {
+                font-family: 'Cantarell';
+                font-size: 10px;
+               }
+
+            input[type='text'] {
+                padding: 8px 180px 10px 25px;
+                border-radius: 25px;
+                background-color: transparent;
+                margin-bottom: 40px;
+                border-color: #FFFF;
+               }  
+               
+            input[type='submit'] {
+                padding: 10px 30px;
+                border-radius: 25px;
+                background-color: var(--light-lilac-color);
+                margin-left: 90px;
+                border-color: var(--light-lilac-color);
+               }
+
+            /*Animation bouton du formulaire enigme*/
+            input[type='submit']:hover {
+                box-shadow: 0 0 5px var(--light-lilac-color);
+               }       
+           }  
+        
+        .right {
+            .para {
+                position: absolute;
+                bottom: -390px;
+                left: 740px;
+                }
+
+            .para:hover {
+                transform: scale(1.2);
+                 }
+                    
+            h3 {
+                font-family: 'Cantarell';
+                font-size: 12px;
+                text-align: center;
+                font-weight: lighter;
+                padding-bottom: 8px;
+              } 
+
+            p {
+                font-family: 'Cantarell';
+                font-size: 10px;
+                text-align: center;
+                width: 373px;
+               }   
+        }   
+       }  
+}

@@ -1,0 +1,71 @@
+@import './bases';
+
+footer {
+    background-image: url(../Illustration+Logo/All_pages/back_footer.png);
+  
+    .box-footer {
+        display: flex;
+        justify-content: space-between;
+        padding-right:150px;
+        padding-top: 20px;
+        align-content: center;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 95px;
+        padding-bottom: 71px;
+    }
+   
+    h2 {
+        font-size: 14px;
+        padding-bottom: 20px;
+       }
+
+    .left {
+        padding-left: 135px;
+       }
+
+    .image-footer1 {
+        width: 48%;
+        padding-top: 60px;
+        margin-left: 96px;
+       }
+    
+    .image-footer2  {
+        position: absolute;
+        padding-top: 152px;
+        padding-left: 129px;
+       }
+
+    .right {
+        padding-right: 5px;
+       }
+
+    a {
+       color: #FFFF;
+       text-decoration: none;
+    }
+
+    p {
+        font-size: 12px;
+        padding-right: 229px;
+       }
+
+    .icon {
+        width: 17%;
+        padding-right: 13px;
+       }
+    
+    .text-footer {
+        display: flex;
+        font-size: 10px;
+
+        p {
+            padding-right: 12px;
+           }
+       }
+
+}
+

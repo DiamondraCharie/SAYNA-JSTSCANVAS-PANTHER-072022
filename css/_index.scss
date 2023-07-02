@@ -1,0 +1,363 @@
+.main-accueil {  
+    /*Mise en forme de la section 1*/
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 150px;
+        animation: fade-in 2s ease-in-out forwards;
+
+        .left {
+            margin-top: 250px;
+        }
+
+        h1 {
+            font-family: 'Panthera';
+            font-size: 38px;
+            font-weight: 100;
+            color: $light-bleu-color;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-family: 'beyno';
+            font-weight: lighter;
+            color: $light-bleu-color;
+            margin-bottom: 30px;
+        }
+
+        p {
+            width: 323px;
+            font-family: 'Cantarell';
+            font-size: 10px;
+            text-align: justify;
+            word-spacing: 1px;
+        }
+
+        a {
+            font-family: 'Cantarell';
+            font-size: 10px;
+            font-weight: lighter;
+            color: $white-color;
+        }
+
+        img {
+                width: 900px;
+                margin-top: 80px;
+            }
+        
+        }
+
+    /*Mise en page de la section 2*/
+    
+   .section2 {
+       .grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        gap: 14px;
+        margin-left: 100px;
+        background-color: $navybleu-color;
+        height: 210px;
+        padding-left: 40px;
+        animation: fade-in 2s ease-in-out forwards;
+      }
+  
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      } 
+      
+      .image2 {
+        img {
+            width: 260px;
+            height: 290px;
+            margin-top: -40px;
+          }
+    
+          img:hover {
+            transform: scale(1.2);
+          }
+      }
+      
+      .section2-text {
+        width: 260px;
+        padding: 35px 7px;
+      }
+  
+      p {
+        font-family: 'Cantarell';
+        font-size: 10px;
+        text-align: justify;
+        margin-bottom: 1px;
+      }
+  
+      h3 {
+        font-family: 'beyno';
+        font-weight: lighter;
+        font-size: 15px;
+        color: $light-bleu-color;
+        padding-bottom: 10px;
+      }
+
+      a {
+        font-family: 'Cantarell';
+        font-size: 10px;
+        font-weight: lighter;
+        color: $white-color;
+      }
+
+      .image3 {
+        img {
+            width: 200px;
+            height: 210px;
+          }
+
+        img:hover {
+            transform: scale(1.2);
+          }  
+      }  
+
+      .image4 {
+        img {
+            width: 165px;
+            height: 210px;
+            padding-right: 0;
+          }
+
+          img:hover {
+            transform: scale(1.2);
+          }  
+      }
+   }
+      
+    /*Mise en page section 3*/
+    .section3 {
+        display: flex;
+        justify-content: space-around;
+        animation: fade-in 2s ease-in-out forwards;
+
+        
+     /*Mise en forme partie gauche de la section3*/ 
+    .left {
+        .section3-text {
+            width: 800px;
+            margin-top: 145px;
+            padding-left: 135px;
+            } 
+
+        h3 {
+           font-family: 'beyno';
+           font-weight: lighter;
+           font-size: 15px;
+           color: $light-bleu-color;
+           padding-bottom: 10px;   
+          }  
+          
+        p {
+           width: 600px;
+           font-size: 12px;
+           font-weight: lighter;
+           text-align: justify;
+           padding-bottom: 20px;
+         }
+    }
+
+    /*Mise en forme partie droite de la section3*/
+    .right {
+        position: relative;
+        padding-top: 305px;
+        padding-left: 40px;
+        padding-right: 125px;
+        padding-bottom: 60px;
+
+        .biography {/* Mise en page de la biographie*/
+            width: 320px;
+            font-size: 12px;
+            background: $white-color;
+            padding: 180px 30px 40px 30px;
+            border-radius: 10px;
+           }
+           
+        h4 {
+          text-align: center;
+          font-size: 16px;
+          color: hsl(0 1% 14%);
+          padding-bottom: 15px;
+        }   
+
+        .identity {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+             padding-bottom: 20px;
+
+             p {
+                background-color: hsl(248 57% 41%);
+                border-radius: 5px;
+                padding: 5px 14px;
+                font-size: 10px;
+              }
+           }
+
+        .description {
+            p {
+                padding-bottom: 12px;
+                color: hsl(0 0% 4%);
+               }
+     
+            span {
+                font-weight: bold;
+                color: $navybleu-color;
+               }   
+        }
+
+        .image5 {
+            position: absolute;
+            width: 270px;
+            top: 7%;
+            left: 13%;
+           }
+       
+         .image5:hover {
+            transform: scale(1.2);
+           }
+
+           
+        .image6 {
+            width: 320px;
+            height: 280px;
+            margin-top: 100px;
+           }   
+   
+
+        .image6:hover {
+            transform: scale(1.2);
+           }    
+       }
+      }
+    
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    
+
+    /*Mise en forme formulaire*/
+    .section4 {
+        .my-form {
+            position: absolute;
+            left: 360px;
+            margin-top: 250px;
+            background-image: linear-gradient(to bottom, white, hsl(0 0% 100% / .5));
+            padding: 45px 120px;
+            border-radius: 90px;
+            animation: fade-in 2s ease-in-out forwards;
+          }
+
+        @keyframes fade-in {
+            0% {
+              opacity: 0;
+              transform: translateX(-100%);
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }   
+
+        .section4-text {
+            color: hsl(0 0% 0%);
+            text-align: center;
+
+            p {
+                font-size: 12px;
+              }
+
+            h2 {
+                font-size: 30px;
+                padding-bottom: 15px;
+              }
+          }
+
+        input {
+            padding: 10px 240px 10px 18px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background-color: transparent;
+            font-size: 10px;
+          }
+          
+        textarea {
+            padding: 10px 200px 100px 18px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background-color: transparent;
+          }  
+          
+        .button {
+            font-size: 10px;
+            padding: 10px 35px;
+            margin-left: 130px;
+            color: hsl(0 0% 0%);
+            background-color: $white-color;
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+          }  
+
+        .button:hover {
+            box-shadow: 0 0 5px white;
+          }
+ 
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: hidden;
+            opacity: 0;
+          }  
+
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+          }  
+
+        .popup {
+            margin: 70px auto;
+            padding: 10px 40px 5px 20px;
+            background: #fff;
+            border-radius: 5px;
+            width: 30%;
+            position: relative;
+            transition: all 5s ease-in-out;
+
+            .close:hover {
+                color: #f72b08;
+              }
+
+            .content {
+                max-height: 30%;
+                overflow: auto;
+                color: hsl(0 0% 0%);
+              } 
+          }  
+    }
+      
+}

@@ -1,0 +1,22 @@
+@import './bases';
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+    a {
+        padding-left: 60px;
+        font-family: 'beyno';
+        font-size: 15px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: var(--white-color);  
+     }
+        
+    .menu {
+            display: flex;
+            list-style-type: none;
+        }
+    }

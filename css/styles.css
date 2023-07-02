@@ -1,0 +1,772 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Panthera";
+  src: url(../police/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+  font-family: "beyno";
+  src: url(../police/beyno.ttf);
+}
+@font-face {
+  font-family: "WakandaForever";
+  src: url(../police/WakandaForever-Regular.ttf);
+}
+@font-face {
+  font-family: "Cantarell";
+  src: url(../police/Cantarell-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, hsl(219, 58%, 16%) 0%, hsl(0, 0%, 4%) 39.1%, hsla(220, 94%, 13%, 0.837641) 94.57%, hsla(220, 94%, 13%, 0) 100%);
+  font-family: "Cantarell";
+  font-weight: 100;
+  background-color: hsl(0, 0%, 4%);
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, hsl(219, 58%, 16%) 0%, hsl(0, 0%, 4%) 39.1%, hsla(220, 94%, 13%, 0.837641) 94.57%, hsla(220, 94%, 13%, 0) 100%);
+  font-family: "Cantarell";
+  font-weight: 100;
+  background-color: hsl(0, 0%, 4%);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+nav a {
+  padding-left: 60px;
+  font-family: "beyno";
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: var(--white-color);
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+}
+
+/*Mise en page des réseaux sociaux*/
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 60px;
+  top: 0;
+}
+
+a:hover {
+  filter: invert(10%) sepia(100%) saturate(2%) hue-rotate(311deg) brightness(106%) contrast(100%);
+}
+
+.social-media:before {
+  content: "";
+  width: 2px;
+  height: 335px;
+  background: hsl(261, 21%, 64%);
+  display: block;
+  margin-bottom: 5px;
+}
+
+.social-media:after {
+  content: "";
+  width: 2px;
+  height: 97%;
+  background: hsl(261, 21%, 64%);
+  display: block;
+  margin-bottom: 5px;
+  position: absolute;
+  left: -19px;
+}
+
+.bouton {
+  padding-bottom: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background: radial-gradient(126.67% 350.28% at -21.35% 0%, hsl(219, 58%, 16%) 0%, hsl(0, 0%, 4%) 39.1%, hsla(220, 94%, 13%, 0.837641) 94.57%, hsla(220, 94%, 13%, 0) 100%);
+  font-family: "Cantarell";
+  font-weight: 100;
+  background-color: hsl(0, 0%, 4%);
+  color: white;
+}
+
+footer {
+  background-image: url(../Illustration+Logo/All_pages/back_footer.png);
+}
+footer .box-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+  padding-top: 20px;
+  align-content: center;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+  padding-bottom: 71px;
+}
+footer h2 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer .left {
+  padding-left: 135px;
+}
+footer .image-footer1 {
+  width: 48%;
+  padding-top: 60px;
+  margin-left: 96px;
+}
+footer .image-footer2 {
+  position: absolute;
+  padding-top: 152px;
+  padding-left: 129px;
+}
+footer .right {
+  padding-right: 5px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer p {
+  font-size: 12px;
+  padding-right: 229px;
+}
+footer .icon {
+  width: 17%;
+  padding-right: 13px;
+}
+footer .text-footer {
+  display: flex;
+  font-size: 10px;
+}
+footer .text-footer p {
+  padding-right: 12px;
+}
+
+.main-accueil {
+  /*Mise en forme de la section 1*/
+  /*Mise en page de la section 2*/
+  /*Mise en page section 3*/
+  /*Mise en forme formulaire*/
+}
+.main-accueil .section1 {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+.main-accueil .section1 .left {
+  margin-top: 250px;
+}
+.main-accueil .section1 h1 {
+  font-family: "Panthera";
+  font-size: 38px;
+  font-weight: 100;
+  color: hsl(261, 21%, 64%);
+  margin-bottom: 12px;
+}
+.main-accueil .section1 h2 {
+  font-family: "beyno";
+  font-weight: lighter;
+  color: hsl(261, 21%, 64%);
+  margin-bottom: 30px;
+}
+.main-accueil .section1 p {
+  width: 323px;
+  font-family: "Cantarell";
+  font-size: 10px;
+  text-align: justify;
+  word-spacing: 1px;
+}
+.main-accueil .section1 a {
+  font-family: "Cantarell";
+  font-size: 10px;
+  font-weight: lighter;
+  color: white;
+}
+.main-accueil .section1 img {
+  width: 900px;
+  margin-top: 80px;
+}
+.main-accueil .section2 .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 14px;
+  margin-left: 100px;
+  background-color: hsl(220, 94%, 13%);
+  height: 210px;
+  padding-left: 40px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-accueil .section2 .image2 img {
+  width: 260px;
+  height: 290px;
+  margin-top: -40px;
+}
+.main-accueil .section2 .image2 img:hover {
+  transform: scale(1.2);
+}
+.main-accueil .section2 .section2-text {
+  width: 260px;
+  padding: 35px 7px;
+}
+.main-accueil .section2 p {
+  font-family: "Cantarell";
+  font-size: 10px;
+  text-align: justify;
+  margin-bottom: 1px;
+}
+.main-accueil .section2 h3 {
+  font-family: "beyno";
+  font-weight: lighter;
+  font-size: 15px;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 10px;
+}
+.main-accueil .section2 a {
+  font-family: "Cantarell";
+  font-size: 10px;
+  font-weight: lighter;
+  color: white;
+}
+.main-accueil .section2 .image3 img {
+  width: 200px;
+  height: 210px;
+}
+.main-accueil .section2 .image3 img:hover {
+  transform: scale(1.2);
+}
+.main-accueil .section2 .image4 img {
+  width: 165px;
+  height: 210px;
+  padding-right: 0;
+}
+.main-accueil .section2 .image4 img:hover {
+  transform: scale(1.2);
+}
+.main-accueil .section3 {
+  display: flex;
+  justify-content: space-around;
+  animation: fade-in 2s ease-in-out forwards;
+  /*Mise en forme partie gauche de la section3*/
+  /*Mise en forme partie droite de la section3*/
+}
+.main-accueil .section3 .left .section3-text {
+  width: 800px;
+  margin-top: 145px;
+  padding-left: 135px;
+}
+.main-accueil .section3 .left h3 {
+  font-family: "beyno";
+  font-weight: lighter;
+  font-size: 15px;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 10px;
+}
+.main-accueil .section3 .left p {
+  width: 600px;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.main-accueil .section3 .right {
+  position: relative;
+  padding-top: 305px;
+  padding-left: 40px;
+  padding-right: 125px;
+  padding-bottom: 60px;
+}
+.main-accueil .section3 .right .biography { /* Mise en page de la biographie*/
+  width: 320px;
+  font-size: 12px;
+  background: white;
+  padding: 180px 30px 40px 30px;
+  border-radius: 10px;
+}
+.main-accueil .section3 .right h4 {
+  text-align: center;
+  font-size: 16px;
+  color: hsl(0, 1%, 14%);
+  padding-bottom: 15px;
+}
+.main-accueil .section3 .right .identity {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.main-accueil .section3 .right .identity p {
+  background-color: hsl(248, 57%, 41%);
+  border-radius: 5px;
+  padding: 5px 14px;
+  font-size: 10px;
+}
+.main-accueil .section3 .right .description p {
+  padding-bottom: 12px;
+  color: hsl(0, 0%, 4%);
+}
+.main-accueil .section3 .right .description span {
+  font-weight: bold;
+  color: hsl(220, 94%, 13%);
+}
+.main-accueil .section3 .right .image5 {
+  position: absolute;
+  width: 270px;
+  top: 7%;
+  left: 13%;
+}
+.main-accueil .section3 .right .image5:hover {
+  transform: scale(1.2);
+}
+.main-accueil .section3 .right .image6 {
+  width: 320px;
+  height: 280px;
+  margin-top: 100px;
+}
+.main-accueil .section3 .right .image6:hover {
+  transform: scale(1.2);
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-accueil .section4 .my-form {
+  position: absolute;
+  left: 360px;
+  margin-top: 250px;
+  background-image: linear-gradient(to bottom, white, hsla(0, 0%, 100%, 0.5));
+  padding: 45px 120px;
+  border-radius: 90px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-accueil .section4 .section4-text {
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+}
+.main-accueil .section4 .section4-text p {
+  font-size: 12px;
+}
+.main-accueil .section4 .section4-text h2 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.main-accueil .section4 input {
+  padding: 10px 240px 10px 18px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 10px;
+}
+.main-accueil .section4 textarea {
+  padding: 10px 200px 100px 18px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.main-accueil .section4 .button {
+  font-size: 10px;
+  padding: 10px 35px;
+  margin-left: 130px;
+  color: hsl(0, 0%, 0%);
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.main-accueil .section4 .button:hover {
+  box-shadow: 0 0 5px white;
+}
+.main-accueil .section4 .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.main-accueil .section4 .overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.main-accueil .section4 .popup {
+  margin: 70px auto;
+  padding: 10px 40px 5px 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.main-accueil .section4 .popup .close:hover {
+  color: #f72b08;
+}
+.main-accueil .section4 .popup .content {
+  max-height: 30%;
+  overflow: auto;
+  color: hsl(0, 0%, 0%);
+}
+
+.main-wakanda .section1 {
+  background-image: url(../Illustration+Logo/2_Wakanda_page/Pantherwakanda1.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
+}
+.main-wakanda .section1 .section1-text {
+  padding-top: 430px;
+  padding-left: 210px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-wakanda .section1 .section1-text h1 {
+  font-family: "beyno";
+  font-weight: lighter;
+  font-size: 42px;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 10px;
+}
+.main-wakanda .section1 .section1-text h2 {
+  font-family: "WakandaForever";
+  font-weight: lighter;
+  color: hsl(261, 21%, 64%);
+  word-spacing: 8px;
+}
+.main-wakanda .section1 .section1-text p {
+  font-family: "Cantarell";
+  font-size: 10px;
+  text-align: justify;
+  width: 349px;
+  padding-top: 35px;
+}
+.main-wakanda .section2 {
+  margin-top: 410px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-wakanda .section2 .background {
+  background-image: url(../Illustration+Logo/2_Wakanda_page/Pantherwakanda2.png);
+  background-size: cover;
+}
+.main-wakanda .section2 .top {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 145px;
+  margin-right: 145px;
+  padding-top: 158px;
+}
+.main-wakanda .section2 .top .left {
+  width: 475px;
+}
+.main-wakanda .section2 .top .right {
+  width: 475px;
+}
+.main-wakanda .section2 .top .section2-text h3 {
+  font-family: "beyno";
+  font-weight: lighter;
+  font-size: 15px;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 15px;
+}
+.main-wakanda .section2 .top .section2-text p {
+  font-family: "Cantarell";
+  font-size: 12px;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.main-wakanda .section2 .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 145px;
+  margin-right: 145px;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+.main-wakanda .section2 .bottom .left {
+  width: 475px;
+}
+.main-wakanda .section2 .bottom .right {
+  width: 475px;
+}
+.main-wakanda .section2 .bottom .section2-text h3 {
+  font-family: "beyno";
+  font-weight: lighter;
+  font-size: 15px;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 15px;
+}
+.main-wakanda .section2 .bottom .section2-text p {
+  font-family: "Cantarell";
+  font-size: 12px;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.main-wakanda .section2 .left iframe {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.main-wakanda .section2 .right .image2 {
+  width: 420px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main-wakanda .section2 .right .image2:hover {
+  transform: scale(1.2);
+}
+
+.main-enigme .section1 {
+  background-image: url(./Images/Enigme/Pantherenigme1.png);
+  background-size: cover;
+  margin-top: -180px;
+  height: 920px;
+  width: 920px;
+  animation: fade-in 2s ease-in-out forwards;
+}
+.main-enigme .section1 .section1-text {
+  width: 397px;
+  margin-left: 785px;
+  padding-top: 200px;
+}
+.main-enigme .section1 .section1-text h1 {
+  font-size: 45px;
+  font-family: "beyno";
+  font-weight: lighter;
+  color: var(--light-bleu-color);
+  margin-top: 165px;
+  margin-bottom: 45px;
+}
+.main-enigme .section1 .section1-text h1:hover {
+  transform: scale(1.2);
+}
+.main-enigme .section1 .section1-text p {
+  position: absolute;
+  width: 332px;
+  font-family: "Cantarell";
+  font-size: 10px;
+  text-align: justify;
+  margin-top: 105px;
+  margin-left: 87px;
+}
+.main-enigme .section1 .section1-text p:hover {
+  transform: scale(1.2);
+}
+.main-enigme .section1 .section1-image {
+  margin-left: 785px;
+}
+.main-enigme .section1 .section1-image .image2-enigme {
+  width: 492px;
+}
+.main-enigme .section1 .section1-image .image3-enigme {
+  width: 492px;
+  position: absolute;
+  padding-top: -400px;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-enigme .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.main-enigme .section2 .left {
+  animation: fade-in 2s ease-in-out forwards;
+}
+.main-enigme .section2 .left h2 {
+  width: 503px;
+  font-family: "WakandaForever";
+  font-size: 20px;
+  line-height: 1.6;
+  word-spacing: 15px;
+  color: var(--light-bleu-color);
+  padding-bottom: 55px;
+}
+.main-enigme .section2 .left h3 {
+  font-family: "Cantarell";
+  font-size: 12px;
+  font-weight: lighter;
+  padding-bottom: 8px;
+}
+.main-enigme .section2 .left p {
+  font-family: "Cantarell";
+  font-size: 12px;
+  width: 370px;
+}
+.main-enigme .section2 .left p span {
+  font-family: "WakandaForever";
+  font-size: 12px;
+  word-spacing: 5px;
+}
+.main-enigme .section2 .left p:hover {
+  transform: scale(1.2);
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.main-enigme .section2 .my-form {
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  /*Animation bouton du formulaire enigme*/
+}
+.main-enigme .section2 .my-form input {
+  font-family: "Cantarell";
+  font-size: 10px;
+}
+.main-enigme .section2 .my-form input[type=text] {
+  padding: 8px 180px 10px 25px;
+  border-radius: 25px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  border-color: white;
+}
+.main-enigme .section2 .my-form input[type=submit] {
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: var(--light-lilac-color);
+  margin-left: 90px;
+  border-color: var(--light-lilac-color);
+}
+.main-enigme .section2 .my-form input[type=submit]:hover {
+  box-shadow: 0 0 5px var(--light-lilac-color);
+}
+.main-enigme .section2 .right .para {
+  position: absolute;
+  bottom: -390px;
+  left: 740px;
+}
+.main-enigme .section2 .right .para:hover {
+  transform: scale(1.2);
+}
+.main-enigme .section2 .right h3 {
+  font-family: "Cantarell";
+  font-size: 12px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 8px;
+}
+.main-enigme .section2 .right p {
+  font-family: "Cantarell";
+  font-size: 10px;
+  text-align: center;
+  width: 373px;
+}/*# sourceMappingURL=styles.css.map */
