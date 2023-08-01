@@ -50,7 +50,7 @@
     /*Mise en page de la section 2*/
     
    .section2 {
-       .grid {
+       .carrousel-content {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
         gap: 14px;
@@ -72,7 +72,7 @@
         }
       } 
       
-      /*.image2 {
+      .item1 {
         img {
             width: 260px;
             height: 290px;
@@ -84,7 +84,7 @@
           }
       }
       
-      .section2-text {
+      .item-text {
         width: 260px;
         padding: 35px 7px;
       }
@@ -111,7 +111,7 @@
         color: $white-color;
       }
 
-      .image3 {
+      .item2 {
         img {
             width: 200px;
             height: 210px;
@@ -122,7 +122,7 @@
           }  
       }  
 
-      .image4 {
+      .item3 {
         img {
             width: 165px;
             height: 210px;
@@ -132,7 +132,7 @@
           img:hover {
             transform: scale(1.2);
           }  
-      }*/
+      }
    }
       
     /*Mise en page section 3*/
@@ -144,7 +144,7 @@
         
      /*Mise en forme partie gauche de la section3*/ 
     .left {
-        .section3-text {
+        .item-text {
             width: 800px;
             margin-top: 145px;
             padding-left: 135px;
@@ -216,26 +216,26 @@
                }   
         }
 
-        .image5 {
+        .item4 {
             position: absolute;
             width: 270px;
             top: 7%;
             left: 13%;
            }
        
-         .image5:hover {
+         .item4:hover {
             transform: scale(1.2);
            }
 
            
-        .image6 {
+        .item5 {
             width: 320px;
             height: 280px;
             margin-top: 100px;
            }   
    
 
-        .image6:hover {
+        .item5:hover {
             transform: scale(1.2);
            }    
        }
@@ -276,7 +276,7 @@
             }
           }   
 
-        .section4-text {
+        .item-text {
             color: hsl(0 0% 0%);
             text-align: center;
 
@@ -305,7 +305,7 @@
             background-color: transparent;
           }  
           
-        .button {
+        .btnconfirm {
             font-size: 10px;
             padding: 10px 35px;
             margin-left: 130px;
@@ -318,46 +318,70 @@
             transition: all 0.3s ease-out;
           }  
 
-        .button:hover {
+        .btnconfirm:hover {
             box-shadow: 0 0 5px white;
           }
- 
-        .overlay {
+
+        /*validator  */
+        .section4 .validator {
+           color: red;
+           font-style: italic;
+           padding-top: 10px;
+           font-family: "Cantarell", sans-serif;
+        }
+
+        /*Partie popup*/
+          .overlay {
             position: fixed;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-            background: rgba(0, 0, 0, 0.7);
             transition: opacity 500ms;
             visibility: hidden;
             opacity: 0;
           }  
 
-        .overlay:target {
-            visibility: visible;
-            opacity: 1;
+          .overlay-transparent {
+            background-color: transparent;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 200px;
+            backdrop-filter: blur(5px);
+        }
+        
+          .popup {
+            position: fixed; /* Permet au popup d'être fixé à l'écran */
+            top: 50%;
+            left: 50%;
+            width: 40%;
+            max-width: 400px; /* Utilisation d'une largeur maximale pour assurer la lisibilité */
+            min-width: 300px; /* Utilisation d'une largeur minimale pour empêcher le contenu de se chevaucher */
+            height: 30vw; /* La hauteur sera de 30% de la hauteur de l'écran */
+            max-height: 70vh; /* Utilisation d'une hauteur maximale pour empêcher le dépassement de l'écran */
+            background: $purple-color
+            box-shadow: 0 3.45px 3.45px rgba(0, 0, 0, 0.04);
+            transform: translate(-50%, -50%);
+            border-radius: 30px;
+            padding: 20px; /* Ajout d'un espace intérieur pour le contenu */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+          p {
+            color: $white-color;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 18px;
+           }
+
+         img {
+            width: 100px;
           }  
-
-        .popup {
-            margin: 70px auto;
-            padding: 10px 40px 5px 20px;
-            background: #fff;
-            border-radius: 5px;
-            width: 30%;
-            position: relative;
-            transition: all 5s ease-in-out;
-
-            .close:hover {
-                color: #f72b08;
-              }
-
-            .content {
-                max-height: 30%;
-                overflow: auto;
-                color: hsl(0 0% 0%);
-              } 
-          }  
-    }
-      
-}
+       
+          }      
+      }      
+ }

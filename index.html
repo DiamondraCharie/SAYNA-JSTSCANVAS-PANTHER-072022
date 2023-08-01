@@ -21,9 +21,6 @@
                 <li><a href="enigme.html">Enigme</a></li>
               </ul>
             </nav>
-        </header>
-        
-        <main class="main-accueil">
             <!--Les réseaux sociaux-->
             <div class="social-media">
                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img class="bouton" src="./Illustration+Logo/All_pages/icon_facebook.png" alt=""></a>
@@ -31,7 +28,9 @@
                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img class="bouton" src="./Illustration+Logo/All_pages/icon_twitter.png" alt=""></a>
                <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html"><img class="bouton" src="./Illustration+Logo/All_pages/icon_tik_tok.png" alt=""></a>
             </div>
-
+        </header>
+        
+        <main class="main-accueil">
             <!--Première section de l'accueil-->
             <div class="section1">
                <canvas id="myCanvas"></canvas>
@@ -54,39 +53,50 @@
             <!--Deuxième section de l'accueil-->
             <!--Carrousel-->
             <div class="section2">
-               <div class="background">
-                     <div class="grid">
-                        <div class="image2">
-                           <img class="photo" src="" alt="">
+                     <div class="carrousel-content">
+                        <div class="item1">
+                           <img class="photo" src="./Illustration+Logo/1_Landing_page/Pantherhome_slider_1.png" alt="">
                         </div>
-                        <div class="section2-text">
-                              <h3 class="titre"></h3>
-                              <p class="para"></p> 
+                        <div class="item-text">
+                              <h3 class="titre">KILLMONGER</h3>
+                              <p class="para">
+                                 La sauvagerie de N'Jadaka alors qu'il servait dans une
+                                 unité d'opérations noires de l'armée américaine lui a valu
+                                 le surnom de Killmonger. D’origine Wakandaise, et se
+                                 sentant abandoné par sa nation, il cherche à détroner
+                                 T’Challa dans une quête vers le pourvoir.
+                              </p> 
                               <span class="plus"><a href="#">Voir plus></a></span> 
                         </div>
-                        <div class="image3">
-                             <img class="photo" src="" alt="">
+                        <div class="item2">
+                             <img class="photo" src="./Illustration+Logo/1_Landing_page/Pantherhome_slider_2.png" alt="">
                         </div>
-                        <div class="section2-text">
-                              <h3 class="titre"></h3>
-                              <p class="para"></p>
+                        <div class="item-text">
+                              <h3 class="titre">OKOYE</h3>
+                              <p class="para">
+                                 Okoye est le général des Dora Milaje (groupe d’élite de
+                                 femmes guerrières) et le chef
+                                 des forces armées et des
+                                 renseignements wakandais. Témoin du couronnement
+                                 de T'Challa, elle se joint à lui dans de nombreuses
+                                 aventures.
+                              </p>
                              <span class="plus"><a href="#">Voir plus></a></span>
                         </div>
-                        <div class="image4">
-                             <img class="photo" src="" alt="">
+                        <div class="item3">
+                             <img class="photo" src="./Illustration+Logo/1_Landing_page/Pantherhome_slider_3.png" alt="">
                              <div class="chevron">
                                 <img src="./Illustration+Logo/1_Landing_page/chevron.png" alt="">
                              </div>
                         </div>
                      </div>   
-                  </div>
             </div> 
            
              <!--Troisième section de l'accueil-->
       
              <div class="section3">
                <div class="left"><!--Partie gauche de la page-->
-                    <div class="section3-text">
+                    <div class="item-text">
                         <h3 id="prince" class="zoom">Naissance d’un prince</h3>
                         <p>T'Challa est né au Wakanda, un pays isolationniste situé en Afrique, du monarque régnant T'Chaka et de sa femme
                            Ramonda. Il a finalement eu une sœur cadette nommée Shuri. S'entraînant toute sa vie pour prendre la place de son père
@@ -175,41 +185,50 @@
                         <p>Réalité : <span>Terre-199999</span></p>
                      </div>
                   </div>
-                  <img src="./Illustration+Logo/1_Landing_page/Pantherhome3.png" alt="" class="image5">
-                  <img src="./Illustration+Logo/1_Landing_page/Pantherhome2.png" alt="" class="image6">
+                  <img src="./Illustration+Logo/1_Landing_page/Pantherhome3.png" alt="" class="item4">
+                  <img src="./Illustration+Logo/1_Landing_page/Pantherhome2.png" alt="" class="item5">
               </div>
             </div>
 
             <!--Section contact-->
                  
             <div class="section4">
-               <form class="my-form">
-                  <div class="section4-text">
+               <div class="my-form">
+                  <div class="item-text">
                         <p>Besoin de l’intervention du Wakanda ?</p>
                         <h2>Contactez-nous !</h2>
                   </div>
-                  <div class="my-input">
-                        <input type="text" placeholder="Nom" required><br>
-                        <input type="email" placeholder="Email" required><br>
-                        <textarea  placeholder="Message" required></textarea>
-                        <div class="box">
-                           <a class="button" href="#popup1" id="btnconfirm">ENVOYER</a>
+                  <form action="">
+                        <div>
+                            <input class="myinput" type="text" placeholder="Nom"><br>
+                            <span class="validator"></span>
                         </div>
-
-            <!--Patie popup-->
-                   <div class="overlay">
+                        <div>
+                            <input class="myinput" type="email" placeholder="Email"><br>
+                            <span class="validator"></span>
+                        </div>
+                        <div>
+                           <textarea class="myinput" cols="20"  rows="7" placeholder="Message"></textarea>
+                           <span class="validator"></span>
+                        </div>
+                        <div>
+                           <button type="submit" class="btnconfirm" id="btnconfirm">ENVOYER</button>
+                        </div>        
+                  </form>
+                  <!--Partie popup-->
+                  <div class="overlay">
                       <div class="overlay-transparent">
                          <div class="popup" id="popup">
-                            <img src="./Illustration+Logo/All_pages/icon-check.svg" alt="">
+                            <img src="./Illustration+Logo/3_Page_Enigme/figma_logo.svg" alt="">
                             <p>Bien reçu. À bientot!!</p>  
                             <button type="submit" class="btnclose" id="btnclose">OK</button>      
                         </div>
                       </div>  
-                   </div>
-               </form>
-                  <img src="./Illustration+Logo/1_Landing_page/Pantherhome4.png" alt="">
-            </div>
-               
+                  </div>
+               </div>
+               <img src="./Illustration+Logo/1_Landing_page/Pantherhome4.png" alt="">
+            </div>   
+
             <footer>
                <div class="box-footer">
                   <div class="left">
