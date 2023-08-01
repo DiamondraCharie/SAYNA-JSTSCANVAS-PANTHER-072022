@@ -1,6 +1,6 @@
 .main-enigme  {
     .section1 {
-        background-image: url(./Images/Enigme/Pantherenigme1.png);
+        background-image: url(../Illustration+Logo/3_Page_Enigme/Pantherenigme1.png);
         background-size: cover;
         margin-top: -180px;
         height: 920px;
@@ -13,12 +13,12 @@
             padding-top: 200px;
 
             h1 {
-                font-size: 45px;
                 font-family: 'beyno';
+                font-size: 45px;
                 font-weight: lighter;
-                color: var(--light-bleu-color);
+                color: $light-bleu-color;
                 margin-top: 165px;
-                margin-bottom: 45px;
+                margin-bottom: -25px;
                }
 
                h1:hover {
@@ -31,28 +31,31 @@
                 font-family: 'Cantarell';
                 font-size: 10px;
                 text-align: justify;
-                margin-top: 105px;
+                margin-top: 180px;
                 margin-left: 87px;
+                word-wrap: break-word;
                }
     
-               p:hover {
+              p:hover {
                 transform: scale(1.2);
                }           
            }
         
-        .section1-image {
-            margin-left: 785px;
+          .section1-image {
+             margin-left: 767px;
 
-            .image2-enigme {
-                width: 492px;
-               }
+             .img1 {
+              width: 660px;
+              position: absolute;
+             }   
+             
+             .img2 {
+              width: 35px;
+              margin-top: 300px;
+              margin-left: 200px;
+             }
+          }
             
-            .image3-enigme {
-                width: 492px;
-                position: absolute;
-                padding-top: -400px;
-               } 
-           }     
        }
 
      @keyframes fade-in {
@@ -77,13 +80,12 @@
             animation: fade-in 2s ease-in-out forwards;
 
             h2 {
-                width: 503px;
-                font-family: 'WakandaForever';
-                font-size: 20px;
-                line-height: 1.6;
-                word-spacing: 15px;
-                color: var(--light-bleu-color);
-                padding-bottom: 55px;
+                font-family: 'beyno';
+                font-size: 16px;
+                word-spacing: 5px;
+                text-decoration: underline;
+                color: $light-bleu-color;
+                padding-bottom: 12px;
                }
 
             h3 {
@@ -96,13 +98,7 @@
             p  {
                 font-family: 'Cantarell';
                 font-size: 12px;
-                width: 370px;
-
-                span {
-                    font-family: 'WakandaForever';
-                    font-size: 12px;
-                    word-spacing: 5px;
-                   }
+                padding-bottom: 35px;
                 
                }  
                
@@ -122,10 +118,18 @@
               transform: translateX(0);
             }
           } 
-        
+
+          q {
+            font-family: 'Wakandaforever';
+            font-size: 20px;
+            color: $light-bleu-color;
+            word-spacing: 10px;
+            line-height: 1.5;
+          }
+          
         .my-form {
             display: block;
-            padding-top: 90px;
+            padding-top: 35px;
             padding-bottom: 30px;
 
             input {
@@ -144,42 +148,48 @@
             input[type='submit'] {
                 padding: 10px 30px;
                 border-radius: 25px;
-                background-color: var(--light-lilac-color);
+                background-color: $light-lilac-color;
                 margin-left: 90px;
-                border-color: var(--light-lilac-color);
+                border-color: $light-lilac-color;
                }
 
             /*Animation bouton du formulaire enigme*/
             input[type='submit']:hover {
-                box-shadow: 0 0 5px var(--light-lilac-color);
+                box-shadow: 0 0 5px $light-lilac-color;
                }       
            }  
         
         .right {
             .para {
                 position: absolute;
-                bottom: -390px;
-                left: 740px;
+                bottom: -350px;
+                left: 755px;
                 }
-
-            .para:hover {
-                transform: scale(1.2);
-                 }
                     
             h3 {
                 font-family: 'Cantarell';
                 font-size: 12px;
-                text-align: center;
                 font-weight: lighter;
                 padding-bottom: 8px;
               } 
-
+            
             p {
-                font-family: 'Cantarell';
-                font-size: 10px;
-                text-align: center;
-                width: 373px;
-               }   
+              width: 372px;
+              font-family: 'Cantarell';
+              font-size: 12px;
+
+              span {
+                font-family: 'WakandaForever';
+                font-size: 12px;
+                word-spacing: 5px;
+                width: 375px;
+               }
+          
+            }
+
+            img {
+              width: 560px;
+            }
         }   
        }  
 }

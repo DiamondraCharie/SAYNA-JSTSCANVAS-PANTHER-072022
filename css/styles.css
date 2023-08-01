@@ -242,6 +242,69 @@ footer .text-footer p {
   width: 900px;
   margin-top: 80px;
 }
+.main-accueil .section2 {
+  /*.image2 {
+    img {
+        width: 260px;
+        height: 290px;
+        margin-top: -40px;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+  }
+
+  .section2-text {
+    width: 260px;
+    padding: 35px 7px;
+  }
+
+  p {
+    font-family: 'Cantarell';
+    font-size: 10px;
+    text-align: justify;
+    margin-bottom: 1px;
+  }
+
+  h3 {
+    font-family: 'beyno';
+    font-weight: lighter;
+    font-size: 15px;
+    color: $light-bleu-color;
+    padding-bottom: 10px;
+  }
+
+  a {
+    font-family: 'Cantarell';
+    font-size: 10px;
+    font-weight: lighter;
+    color: $white-color;
+  }
+
+  .image3 {
+    img {
+        width: 200px;
+        height: 210px;
+      }
+
+    img:hover {
+        transform: scale(1.2);
+      }  
+  }  
+
+  .image4 {
+    img {
+        width: 165px;
+        height: 210px;
+        padding-right: 0;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }  
+  }*/
+}
 .main-accueil .section2 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -261,52 +324,6 @@ footer .text-footer p {
     opacity: 1;
     transform: translateX(0);
   }
-}
-.main-accueil .section2 .image2 img {
-  width: 260px;
-  height: 290px;
-  margin-top: -40px;
-}
-.main-accueil .section2 .image2 img:hover {
-  transform: scale(1.2);
-}
-.main-accueil .section2 .section2-text {
-  width: 260px;
-  padding: 35px 7px;
-}
-.main-accueil .section2 p {
-  font-family: "Cantarell";
-  font-size: 10px;
-  text-align: justify;
-  margin-bottom: 1px;
-}
-.main-accueil .section2 h3 {
-  font-family: "beyno";
-  font-weight: lighter;
-  font-size: 15px;
-  color: hsl(261, 21%, 64%);
-  padding-bottom: 10px;
-}
-.main-accueil .section2 a {
-  font-family: "Cantarell";
-  font-size: 10px;
-  font-weight: lighter;
-  color: white;
-}
-.main-accueil .section2 .image3 img {
-  width: 200px;
-  height: 210px;
-}
-.main-accueil .section2 .image3 img:hover {
-  transform: scale(1.2);
-}
-.main-accueil .section2 .image4 img {
-  width: 165px;
-  height: 210px;
-  padding-right: 0;
-}
-.main-accueil .section2 .image4 img:hover {
-  transform: scale(1.2);
 }
 .main-accueil .section3 {
   display: flex;
@@ -618,7 +635,7 @@ footer .text-footer p {
 }
 
 .main-enigme .section1 {
-  background-image: url(./Images/Enigme/Pantherenigme1.png);
+  background-image: url(../Illustration+Logo/3_Page_Enigme/Pantherenigme1.png);
   background-size: cover;
   margin-top: -180px;
   height: 920px;
@@ -631,12 +648,12 @@ footer .text-footer p {
   padding-top: 200px;
 }
 .main-enigme .section1 .section1-text h1 {
-  font-size: 45px;
   font-family: "beyno";
+  font-size: 45px;
   font-weight: lighter;
-  color: var(--light-bleu-color);
+  color: hsl(261, 21%, 64%);
   margin-top: 165px;
-  margin-bottom: 45px;
+  margin-bottom: -25px;
 }
 .main-enigme .section1 .section1-text h1:hover {
   transform: scale(1.2);
@@ -647,22 +664,24 @@ footer .text-footer p {
   font-family: "Cantarell";
   font-size: 10px;
   text-align: justify;
-  margin-top: 105px;
+  margin-top: 180px;
   margin-left: 87px;
+  word-wrap: break-word;
 }
 .main-enigme .section1 .section1-text p:hover {
   transform: scale(1.2);
 }
 .main-enigme .section1 .section1-image {
-  margin-left: 785px;
+  margin-left: 767px;
 }
-.main-enigme .section1 .section1-image .image2-enigme {
-  width: 492px;
-}
-.main-enigme .section1 .section1-image .image3-enigme {
-  width: 492px;
+.main-enigme .section1 .section1-image .img1 {
+  width: 660px;
   position: absolute;
-  padding-top: -400px;
+}
+.main-enigme .section1 .section1-image .img2 {
+  width: 35px;
+  margin-top: 300px;
+  margin-left: 200px;
 }
 @keyframes fade-in {
   0% {
@@ -685,13 +704,12 @@ footer .text-footer p {
   animation: fade-in 2s ease-in-out forwards;
 }
 .main-enigme .section2 .left h2 {
-  width: 503px;
-  font-family: "WakandaForever";
-  font-size: 20px;
-  line-height: 1.6;
-  word-spacing: 15px;
-  color: var(--light-bleu-color);
-  padding-bottom: 55px;
+  font-family: "beyno";
+  font-size: 16px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  color: hsl(261, 21%, 64%);
+  padding-bottom: 12px;
 }
 .main-enigme .section2 .left h3 {
   font-family: "Cantarell";
@@ -702,12 +720,7 @@ footer .text-footer p {
 .main-enigme .section2 .left p {
   font-family: "Cantarell";
   font-size: 12px;
-  width: 370px;
-}
-.main-enigme .section2 .left p span {
-  font-family: "WakandaForever";
-  font-size: 12px;
-  word-spacing: 5px;
+  padding-bottom: 35px;
 }
 .main-enigme .section2 .left p:hover {
   transform: scale(1.2);
@@ -722,9 +735,16 @@ footer .text-footer p {
     transform: translateX(0);
   }
 }
+.main-enigme .section2 q {
+  font-family: "Wakandaforever";
+  font-size: 20px;
+  color: hsl(261, 21%, 64%);
+  word-spacing: 10px;
+  line-height: 1.5;
+}
 .main-enigme .section2 .my-form {
   display: block;
-  padding-top: 90px;
+  padding-top: 35px;
   padding-bottom: 30px;
   /*Animation bouton du formulaire enigme*/
 }
@@ -742,31 +762,35 @@ footer .text-footer p {
 .main-enigme .section2 .my-form input[type=submit] {
   padding: 10px 30px;
   border-radius: 25px;
-  background-color: var(--light-lilac-color);
+  background-color: hsl(300, 58%, 88%);
   margin-left: 90px;
-  border-color: var(--light-lilac-color);
+  border-color: hsl(300, 58%, 88%);
 }
 .main-enigme .section2 .my-form input[type=submit]:hover {
-  box-shadow: 0 0 5px var(--light-lilac-color);
+  box-shadow: 0 0 5px hsl(300, 58%, 88%);
 }
 .main-enigme .section2 .right .para {
   position: absolute;
-  bottom: -390px;
-  left: 740px;
-}
-.main-enigme .section2 .right .para:hover {
-  transform: scale(1.2);
+  bottom: -350px;
+  left: 755px;
 }
 .main-enigme .section2 .right h3 {
   font-family: "Cantarell";
   font-size: 12px;
-  text-align: center;
   font-weight: lighter;
   padding-bottom: 8px;
 }
 .main-enigme .section2 .right p {
+  width: 372px;
   font-family: "Cantarell";
-  font-size: 10px;
-  text-align: center;
-  width: 373px;
+  font-size: 12px;
+}
+.main-enigme .section2 .right p span {
+  font-family: "WakandaForever";
+  font-size: 12px;
+  word-spacing: 5px;
+  width: 375px;
+}
+.main-enigme .section2 .right img {
+  width: 560px;
 }/*# sourceMappingURL=styles.css.map */
